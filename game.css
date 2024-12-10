@@ -1,0 +1,140 @@
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  background-color: white;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #56a5eb;
+  color: white;
+}
+
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+/* HUD */
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+#progressBar {
+  width: 20rem;
+  height: 4rem;
+  border: 0.3rem solid #56a5eb;
+  margin-top: 1.5rem;
+}
+
+#progressBarFull {
+  height: 3.4rem;
+  background-color: #56a5eb;
+  width: 0%;
+}
+
+.timing {
+  width: 50px;
+    height: 50px;
+    background-color: #56a5eb; 
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 50%; 
+    font-size: 30px;
+}
+
+/* Wadah untuk tombol Play/Pause dan Volume Bar */
+/* Wadah untuk tombol Play/Pause dan Volume Bar */
+.bgm-container {
+  display: flex;
+  align-items: center; /* Menyelaraskan item secara vertikal */
+  justify-content: flex-start; /* Menyelaraskan item di kiri */
+  gap: 1rem; /* Jarak antar elemen */
+  margin-top: 1rem; /* Mengurangi jarak atas */
+  width: auto; /* Membatasi lebar kontainer */
+}
+
+/* Tombol Play/Pause */
+.bgm-button {
+  padding: 0.5rem 1rem; /* Ukuran tombol lebih kecil */
+  background-color: #56a5eb;
+  color: white;
+  font-size: 1.4rem; /* Ukuran font lebih kecil */
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 150ms ease;
+}
+
+/* Volume Bar */
+.volume-bar {
+  width: 100px; /* Lebar volume bar lebih kecil */
+  height: 0.3rem; /* Lebih kecil */
+  border-radius: 0.25rem;
+  background-color: #dcdcdc;
+  appearance: none;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.volume-bar::-webkit-slider-runnable-track {
+  background-color: #56a5eb;
+  border-radius: 0.25rem;
+}
+
+.volume-bar::-webkit-slider-thumb {
+  width: 1rem; /* Lebih kecil */
+  height: 1rem; /* Lebih kecil */
+  border-radius: 50%;
+  background-color: #56a5eb;
+  border: none;
+  cursor: pointer;
+  transition: background-color 150ms ease;
+}
+
+.volume-value {
+  font-size: 1.2rem; /* Ukuran teks lebih kecil */
+  color: #56a5eb;
+  margin-left: 0.5rem;
+}
+
+/* Volume Icon */
+.volume-icon {
+  font-size: 1.4rem; /* Ukuran ikon lebih kecil */
+  color: #56a5eb;
+  cursor: pointer;
+}

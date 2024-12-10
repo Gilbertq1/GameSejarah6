@@ -1,0 +1,134 @@
+﻿#collage hr{
+    border:none;
+    border-top:2px solid #f5f2f2;
+    height:1px;
+}
+
+#collage #playPanel {
+    background-color:#c2defc;
+    padding:10px 0px;
+    margin: 10px auto;
+    max-width:800px;
+    width:95%;
+}
+
+#collage #actualImageBox {
+    display: inline-block;
+    font-size:0.8em;
+    margin: 10px 10px;
+    vertical-align: top;
+    width:280px;
+}
+
+#collage #stepBox, #collage #timeBox {
+    display:inline-block;
+    width:48%;
+}
+
+#collage #stepBox div {
+    background-color:#c2defc;
+    display:inline-block;
+    padding:1px 4px;
+    margin: 0px auto;
+    max-width:800px;
+}
+
+#collage img#actualImage{
+    border:2px solid #a46;
+    height:280px;
+    width:280px;
+}
+
+#collage #sortable {
+    border:2px solid #a46;
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    width: 400px;
+}
+
+    #collage #sortable li {
+        background-size: 400% 400%;
+        border: none;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+
+#collage button  {
+    background-color:#f5f2f2;
+    border:1px solid #cce;
+    display: inline;
+    font-size: 14px;
+    height: auto;
+    width: auto;
+    padding: 3px 8px;
+}
+
+.bgm-container {
+    display: flex;
+    align-items: center; /* Menyelaraskan item secara vertikal */
+    justify-content: flex-start; /* Menyelaraskan item di kiri */
+    gap: 1rem; /* Jarak antar elemen */
+    margin-top: 1rem; /* Mengurangi jarak atas */
+    width: auto; /* Membatasi lebar kontainer */
+  }
+  
+  /* Tombol Play/Pause */
+  .bgm-button {
+    padding: 0.5rem 1rem; /* Ukuran tombol lebih kecil */
+    background-color: #56a5eb;
+    color: white;
+    font-size: 1.4rem; /* Ukuran font lebih kecil */
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 150ms ease;
+  }
+  
+  /* Volume Bar */
+  .volume-bar {
+    width: 100px; /* Lebar volume bar lebih kecil */
+    height: 0.3rem; /* Lebih kecil */
+    border-radius: 0.25rem;
+    background-color: #dcdcdc;
+    appearance: none;
+    cursor: pointer;
+    transition: all 150ms ease;
+  }
+  
+  .volume-bar::-webkit-slider-runnable-track {
+    background-color: #56a5eb;
+    border-radius: 0.25rem;
+  }
+  
+  .volume-bar::-webkit-slider-thumb {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #56a5eb;
+    border: none;
+    cursor: pointer;
+    transition: background-color 150ms ease;
+  }
+  
+  .volume-value {
+    font-size: 1.2rem; 
+    color: #56a5eb;
+    margin-left: 0.5rem;
+  }
+  
+  /* Volume Icon */
+  .volume-icon {
+    font-size: 1.4rem;
+    color: #56a5eb;
+    cursor: pointer;
+  }
+  

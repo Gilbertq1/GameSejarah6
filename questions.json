@@ -1,0 +1,74 @@
+[
+  {
+    "question": "Pemberontakan yang dipimpin oleh Letnan Kolonel H. Agus Salim di Aceh pada tahun 1946 dikenal dengan nama?",
+    "choice1": "Pemberontakan PKI Madiun",
+    "choice2": "Pemberontakan DI/TII Aceh",
+    "choice3": "Pemberontakan PRRI",
+    "choice4": "Pemberontakan Aceh 1946",
+    "answer": 2
+  },
+  {
+    "question": "Pada peristiwa 'Serangan Umum 1 Maret 1949', kota yang menjadi pusat pertempuran adalah?",
+    "choice1": "Yogyakarta",
+    "choice2": "Surakarta",
+    "choice3": "Jakarta",
+    "choice4": "Semarang",
+    "answer": 1
+  },
+  {
+    "question": "Apa alasan utama bagi Jepang untuk mengadakan perundingan dengan Indonesia pasca-kekalahannya dalam Perang Dunia II, meskipun Indonesia telah memproklamasikan kemerdekaannya?",
+    "choice1": "Jepang ingin mendapatkan dukungan dari Indonesia untuk perang melawan Sekutu",
+    "choice2": "Jepang ingin mempertahankan wilayahnya di Indonesia",
+    "choice3": "Jepang berusaha memperbaiki hubungan dengan negara-negara Asia Tenggara",
+    "choice4": "Jepang tidak ingin Indonesia jatuh ke tangan Sekutu",
+    "answer": 2
+  },
+  {
+    "question": "Siapa pemimpin yang dianggap sebagai penggerak utama dalam pemberontakan PRRI (Pemerintah Revolusioner Republik Indonesia)?",
+    "choice1": "Soekarno",
+    "choice2": "Sjafruddin Prawiranegara",
+    "choice3": "Amir Sjarifoeddin",
+    "choice4": "Muhammad Hatta",
+    "answer": 2
+  },
+  {
+    "question": "Mengapa Tentara Sekutu, yang dipimpin oleh Inggris, melakukan operasi militer di Indonesia setelah proklamasi kemerdekaan?",
+    "choice1": "Untuk mendukung Indonesia dalam menghadapi Belanda",
+    "choice2": "Untuk membantu Jepang membangun kembali pemerintahannya",
+    "choice3": "Untuk melucuti senjata tentara Jepang dan mengembalikan kontrol Belanda",
+    "choice4": "Untuk memastikan kemerdekaan Indonesia di bawah pengawasan internasional",
+    "answer": 3
+  },
+  {
+    "question": "Pemberontakan yang terjadi di Madiun pada tahun 1948 dipimpin oleh organisasi yang dikenal dengan nama?",
+    "choice1": "Partai Komunis Indonesia (PKI)",
+    "choice2": "Angkatan Darat Republik Indonesia",
+    "choice3": "Pemerintah Revolusioner Republik Indonesia (PRRI)",
+    "choice4": "Gerakan Aceh Merdeka",
+    "answer": 1
+  },
+  {
+    "question": "Peristiwa Bandung Lautan Api terjadi pada tahun 1946. Apa yang menyebabkan peristiwa ini terjadi?",
+    "choice1": "Serangan dari tentara Sekutu",
+    "choice2": "Pembakaran oleh tentara Indonesia untuk mencegah Belanda mengambil alih kota",
+    "choice3": "Serangan dari pasukan Jepang",
+    "choice4": "Pemberontakan rakyat terhadap pemerintah kolonial Belanda",
+    "answer": 2
+  },
+  {
+    "question": "Dalam perundingan yang berlangsung di Jakarta pada 1947, siapa yang menjadi wakil Indonesia dan perwakilan dari Belanda?",
+    "choice1": "Mohamad Hatta dan Van Mook",
+    "choice2": "Soekarno dan Van Mook",
+    "choice3": "Sutan Sjahrir dan Van Mook",
+    "choice4": "Soedirman dan Beel",
+    "answer": 3
+  },
+  {
+    "question": "Pemberontakan DI/TII (Darul Islam/Tentara Islam Indonesia) yang terjadi pada periode 1949-1962 dipimpin oleh siapa?",
+    "choice1": "Kartosuwiryo",
+    "choice2": "Sutan Sjahrir",
+    "choice3": "Soekarno",
+    "choice4": "Tan Malaka",
+    "answer": 1
+  }
+]
